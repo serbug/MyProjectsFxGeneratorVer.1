@@ -1,0 +1,71 @@
+.button
+{
+    -fx-border-radius: 5;
+    -fx-font-family: "Source Sans Pro";
+    -fx-background-color : #e8eaee91;
+    -fx-font-size : 14 ;
+    -fx-text-style: "Helvetica";
+}
+
+.button:hover{
+   -fx-font-size : 12 ;
+    -fx-text-style: "Helvetica";
+    -fx-background-color : limegreen;
+    -fx-border-radius: 5;
+    -fx-font-family: "Source Sans Pro";
+}
+
+
+/*.button:pressed, .button:default:hover:pressed{
+    -fx-background-color : #33ff33;
+    -fx-text-fill:#177877;
+}
+
+.button:disabled, .button:default:disabled{
+    -fx-background-color : #33ff33;
+    -fx-text-fill:#177877;
+}*/
+
+.button:default:hover{
+     -fx-font-size : 14 ;
+    -fx-text-style: "Helvetica";
+    -fx-background-color : red;
+    -fx-border-radius: 5;
+    -fx-font-family: "Source Sans Pro";
+     -fx-font-weight: bold;
+}
+.text-area {
+    -fx-background-color: rgba(53,89,119,0.4);
+    -fx-text-fill: white;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.root{
+    -fx-background-image: url("1.jpg");    /* http://wallpapercave.com/wp/QKgBmix.jpg    https://38.media.tumblr.com/767ef69bf5cbd73e775925d447dc5f7a/tumblr_mzwbsdgjdV1qgbp1jo1_500.gif    https://upload.wikimedia.org/wikipedia/commons/2/22/Animated_fire_by_nevit.gif*/
+   /* -fx-background-size: 500 500;*/
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.text-field, .text-field .viewport,.text-field .content {
+
+     -fx-text-fill: white;
+    -fx-border-style: dashed;
+    -fx-border-color: white;
+    -fx-background-color: rgba(53,89,119,0.6);
+    -fx-font-weight: bold;
+
+}
+

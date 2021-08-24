@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sersoft.www.myprojectsfxgenerator.controllers.MainController">
+    <children>
+        <MenuBar fx:id="fileMenu" layoutY="-2.0" prefHeight="38.0" prefWidth="790.0" AnchorPane.bottomAnchor="518.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="MenuItemOpen" mnemonicParsing="false" onAction="#handleMenuItemOpen" text="Open" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="MenuItemSave" mnemonicParsing="false" onAction="#handleMenuItemSave" text="Save" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleMenuItemExit" text="Exit" />
+                    </items>
+                </Menu>
+            <Menu mnemonicParsing="false" text="Chat">
+              <items>
+                <MenuItem fx:id="MenuItemServer" mnemonicParsing="false" onAction="#handleMenuItemServer" text="Server" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="menuItemClient" mnemonicParsing="false" onAction="#handleMenuItemClient" text="Chat Room" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Crypting">
+              <items>
+                  <MenuItem fx:id="MenuItemEncrypt" mnemonicParsing="false" onAction="#handleMenuItemEncrypt" text="Encrypt" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="MenuItemDecrypt" mnemonicParsing="false" onAction="#handleMenuItemDecrypt" text="Decrypt" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem fx:id="MenuItemAbout" mnemonicParsing="false" onAction="#handleMenuItemAbout" text="About" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="MenuItemHelp" mnemonicParsing="false" onAction="#handleMenuItemHelp" text="Help " />
+              </items>
+            </Menu>
+            </menus>
+        </MenuBar>
+        <TableView fx:id="tableView" editable="true" layoutX="2.0" layoutY="36.0" prefHeight="412.0" prefWidth="790.0" AnchorPane.bottomAnchor="106.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="36.0">
+            <columns>
+                <TableColumn fx:id="site" prefWidth="231.0" text="NAME SITE/APP" />
+                <TableColumn fx:id="login" prefWidth="150.0" text="LOGIN" />
+                <TableColumn fx:id="passwordSize" prefWidth="130.0" text="PASSWORD SIZE" />
+                <TableColumn fx:id="passwordGenerate" prefWidth="278.0" text="PASSWORD" />
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+                      </TableView>
+        <Button fx:id="buttonMainAdd" layoutX="31.0" layoutY="504.0" mnemonicParsing="false" onAction="#handlebuttonMainAdd" prefHeight="25.0" prefWidth="81.0" text="ADD" />
+        <Button fx:id="buttonMainDelete" layoutX="143.0" layoutY="504.0" mnemonicParsing="false" onAction="#handlebuttonMainDelete" prefHeight="25.0" prefWidth="81.0" text="DELETE" />
+        <TextField fx:id="textFieldMainFilterTable" alignment="CENTER" layoutX="397.0" layoutY="502.0" promptText="FILTER TABLE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <Button fx:id="buttonPlay" layoutX="638.0" layoutY="504.0" mnemonicParsing="false" onAction="#handleButtonPLay" text="PLAY" visible="false" />
+      <Button fx:id="buttonPause" layoutX="689.0" layoutY="504.0" mnemonicParsing="false" onAction="#handleButtonPause" text="PAUSE" visible="false" />
+      
+    </children>
+</AnchorPane>

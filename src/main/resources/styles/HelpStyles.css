@@ -1,0 +1,32 @@
+/*.button {
+
+    -fx-text-fill: yellowgreen;
+    -fx-padding: 7;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+
+    -fx-background-color:
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+}
+.button:hover{
+
+    -fx-background-color: red;
+}*/
+
+.root{
+     -fx-background-color:#00CCFF;
+   -fx-background-image: url("help.gif");    /* http://wallpapercave.com/wp/QKgBmix.jpg    https://38.media.tumblr.com/767ef69bf5cbd73e775925d447dc5f7a/tumblr_mzwbsdgjdV1qgbp1jo1_500.gif    https://upload.wikimedia.org/wikipedia/commons/2/22/Animated_fire_by_nevit.gif*/ 
+    -fx-background-size: 200 200;
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;	
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+

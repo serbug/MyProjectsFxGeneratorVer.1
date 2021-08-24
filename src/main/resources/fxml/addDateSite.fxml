@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.*?>
+<AnchorPane id="AnchorPane" prefHeight="341.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sersoft.www.myprojectsfxgenerator.controllers.AddDateSiteController">
+   <children>
+      <TextField fx:id="textFieldSite" alignment="CENTER" focusTraversable="false" layoutX="70.0" layoutY="57.0" prefHeight="26.0" prefWidth="187.0" promptText="NAME SITE / APP">
+         <font>
+            <Font name="Arial Narrow Bold" size="14.0" />
+         </font></TextField>
+       <TextField fx:id="textFieldLogin" alignment="CENTER" focusTraversable="false" layoutX="70.0" layoutY="102.0" prefHeight="26.0" prefWidth="187.0" promptText="LOGIN">
+         <font>
+            <Font name="Arial Narrow Bold" size="14.0" />
+         </font></TextField>
+       <TextField fx:id="textFieldPasswordSize" alignment="CENTER" focusTraversable="false" layoutX="70.0" layoutY="145.0" prefHeight="30.0" prefWidth="138.0" promptText="PASSWORD SIZE">
+         <font>
+            <Font name="Arial Narrow Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="textFieldGeneratePassword" alignment="CENTER" focusTraversable="false" layoutX="70.0" layoutY="187.0" prefHeight="26.0" prefWidth="187.0" promptText="GENERATE PASSWORD">
+         <font>
+            <Font name="Arial Narrow Bold" size="14.0" />
+         </font></TextField>
+      <Button fx:id="buttonAddDate" layoutX="61.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonAddDate" prefHeight="25.0" prefWidth="55.0" text="ADD">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="buttonGenerate" layoutX="267.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleButtonGenerate" text="GENERATE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="buttonExit" layoutX="257.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonExit" prefHeight="25.0" prefWidth="51.0" text="EXIT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="buttonClear" layoutX="160.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonClear" text="CLEAR">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+   <effect>
+      <Lighting bumpInput="$null">
+         <light>
+            <Light.Distant />
+         </light>
+      </Lighting>
+   </effect>
+</AnchorPane>

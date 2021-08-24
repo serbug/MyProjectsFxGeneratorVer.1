@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Label?>
+<AnchorPane id="AnchorPane" prefHeight="262.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="WHITE" layoutX="58.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Program:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="58.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ver.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="59.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="57.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Label layoutX="176.0" layoutY="62.0" text="Generator Password" textFill="#05f508">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="102.0" text="1.0" textFill="#05f508">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="140.0" text="Sergiu B." textFill="#05f508">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="182.0" text="nixor_09@mail.ru" textFill="#05f508">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
